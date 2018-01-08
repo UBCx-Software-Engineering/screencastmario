@@ -1,0 +1,31 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Angular 2 Testing</title>
+
+  <link rel="shortcut icon" type="image/png" href="../node_modules/jasmine-core/images/jasmine_favicon.png">
+  <link rel="stylesheet" href="../node_modules/jasmine-core/lib/jasmine-core/jasmine.css">
+  <script src="../node_modules/systemjs/dist/system.src.js"></script>
+
+<script>
+    System.import('src/js/game.js').then(function(module) { 
+/*
+      var counter = new module.Counter();  (3)
+      var count = document.getElementById('count');
+      setInterval(function () {
+        counter.increment();
+        count.innerHTML = counter.value;  (4)
+      }, 1000);
+*/
+console.log('systemjs loaded');
+    });
+  </script>
+  <script src="../node_modules/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+  <script src="../node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+  <script src="../node_modules/jasmine-core/lib/jasmine-core/boot.js"></script>
+
+  <script src="./js/test/Hit2Spec.js"></script>
+</head>
+<body>
+</body>
+</html>
