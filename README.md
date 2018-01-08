@@ -11,7 +11,6 @@ This repository contains the code for the TypeScript version of the Mario5 demo 
 * The original JavaScript code is available in `reference/`.
 * The description below hints, where features of TypeScript have been placed.
 * An article describing the original code is available on [CodeProject](http://www.codeproject.com/Articles/396959/Mario).
-* The system is built by using `gulp`.
 
 Requirements
 ------------
@@ -45,6 +44,19 @@ During development, you can build the application with either of the two followi
     `tsc`
 
 Either of these commands will cause the browser-version to refresh, if you have run the `serve` command above.
+
+Practice
+-------------------
+
+This repository has been provided to learners in the edX course Software Engineering: Introduction as a running example
+throughout the course. You are encouraged to clone or download this repository and work along with the lecture videos
+when applicable. This repository can also be used as a way to practice various concepts throughout the course on an
+existing TypeScript code base. Since the code is presented 'as-is', there are many opportunities for improvement
+and refactoring.
+
+
+
+The following parts of this README were forked from FlorianRappl's original repository.
 
 
 TypeScript Features
