@@ -13,6 +13,10 @@ $(document).ready(function () {
 });
 
 function startGame() {
+    console.log('startGame() - start');
+    console.log('arbitrary ref: ' + Item);
+    console.log('arbitrary ref: ' + TurtleShell);
+    console.log('ready event fired');
     var sounds = new HtmlAudioManager();
 
     try {
@@ -20,5 +24,6 @@ function startGame() {
     } catch (err) {
         console.log(err);
     }
+    console.log('startGame() - done');
 }
 
