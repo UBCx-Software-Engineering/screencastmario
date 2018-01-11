@@ -55,6 +55,12 @@ During development, you can build the application with either of the two followi
 
 Either of these commands will cause the browser-version to refresh, if you have run the `serve` command above.
 
+If your project folders aren't displaying normally, try running this command and then close and re-open your project in your IDEA:
+
+    'rm -r .idea'
+
+This allows the workspace files for your project to regenerate and should fix any display issues.
+
 The following parts of this README were forked from FlorianRappl's original repository.
 
 TypeScript Features
