@@ -28,6 +28,12 @@ Requirements
 For compiling the code you will need the following applications:
 
 * npm (tested with v5.0.3) for installation
+* webpack (tested with 3.10.0)
+
+You can download Node.js (which includes npm) here: https://nodejs.org/en/download/
+
+You can find instructions to download webpack using npm here: https://www.npmjs.com/package/webpack
+
 
 Installation
 ------------
@@ -36,13 +42,21 @@ First you should clone the repository. Then in the directory of the repository r
 
     `npm install`
 
+
 To build the application, run:
 
     `npm run configure`
 
+
 And then:
 
     `webpack`
+
+
+If the webpack command is not found, try running this instead:
+
+	'node_modules/.bin/webpack'
+
 
 This will compile everything and copy resources a subfolder called `release`. If you want to play the game from this version you can:
 
