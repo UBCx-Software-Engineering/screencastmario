@@ -19,7 +19,8 @@ This repository has been provided to learners in the edX course Software Enginee
 throughout the course. You are encouraged to clone or download this repository and work along with the lecture videos
 when applicable. This repository can also be used as a way to practice various concepts throughout the course on an
 existing TypeScript code base. Since the code is presented 'as-is', there are many opportunities for improvement
-and refactoring.
+and refactoring. All you need in order to get started is access to the command line on your machine, and a simple text
+editor or IDE compatible with TypeScript (such as WebStorm or Visual Studio Code).
 
 
 Requirements
