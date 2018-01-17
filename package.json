@@ -4,7 +4,7 @@
   "description": "TypeScript version of the Mario5 demo application migrated to TypeScript 2.0.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "configure": "mkdir release; cp -r assets/ release/",
+    "configure": "mkdir release; cp -r assets/. release/",
     "configurewin": "mkdir release & cp -r assets/. release/",
     "build": "tsc",
     "deploy": "npm run configure & npm run build",
