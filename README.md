@@ -35,9 +35,9 @@ You can download Node.js (which includes npm) here: https://nodejs.org/en/downlo
 
 You can find instructions to download webpack using npm here: https://www.npmjs.com/package/webpack
 
-Windows users may need to change the package.json file configure line before following the installation instructions:
+Windows users may need to change the package.json file configure line within the project before following the rest of the installation instructions:
 	
-	'"configure": "mkdir release; cp -r assets/. release/",'
+	'"configure": "mkdir release & xcopy /s assets release",'
 
 
 Installation
